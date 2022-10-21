@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Government Drone Detector</title>
+</head>
+<a href=/index.html>Go Back</a>
+
+
+<body>
+  <center>
+    <h1>Government Drone Detector</h1>
+
+    <p><big>"The government is infamous for always sticking
+        <br>
+        their nose where it don't belong. Use this site to reveal
+        <br>
+        the number of drones they have around you!"
+    </p>
+    </big>
+
+  </center>
+  <center>
+    <table border="15">
+      <tr>
+        <td>
+          <button onclick="reveal();">Detect Drones</button>
+      </tr>
+      </td>
+  </center>
+  <center>
+    <tr>
+
+<!This Gives Text in Table the ID "target">
+      <td id="target">
+        waiting...
+
+      </td>
+    </tr>
+    </table>
+  </center>
+
+<!Function That Updates Text Already On Screen>
+  <script>
+    function reveal() {
+      document.getElementById('target').innerHTML = '3';
+    }
+  </script>
+
+<br>
+<br>
+
+  <center>
+    <h1>Sleep Dictator</h1>
+
+    <p>
+    <big>
+      "Unsure how much sleep to sleep tonight?
+      <br>
+      input your information to calculate the <em>perfect</em> amount of sleep
+      <br>
+      for you <em>and</em> your lifestyle!"
+    </big>
+    </p>
+
+<table border="3">
+    <tr>
+      <td>
+        <input type =text placeholder="Credit Card Info Here"></input>
+        <button onclick="reveal2();">Send Info</button>
+      </td>
+    </tr>
+  <td>
+    <center id="sleepResult">Result Waiting...</center>
+  </td>
+</table>
+<script>
+  function reveal2(){
+    document.getElementById('sleepResult').innerHTML='2 Hours';
+  }
+</script>
+
+
+
+</body>
+</html>
