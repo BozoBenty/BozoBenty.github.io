@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Password Protected Area"
-AuthUserFile .htpassword
+AuthUserFile /bozobenty.github.io/non_index/.htpassword
 Require valid-user
