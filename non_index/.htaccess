@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Password Protected Area"
-AuthUserFile /bozobenty.github.io/non_index/.htpassword
+AuthUserFile \Users\Bentley James Clark\Documents\GitHub\BozoBenty.github.io\non_index
 Require valid-user
