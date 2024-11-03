@@ -1,0 +1,26 @@
+.centration p, h1, h2 {
+    text-align: center;
+}
+
+body {
+    background-color: #ffb6c1;
+}
+
+.block {
+    width: 80%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: pink;
+    min-height: 900px;
+    height:180%;
+
+}
+
+.sans {
+    font-family: sans-serif;
+}
+
+.impact {
+    font-family: impact;
+}
