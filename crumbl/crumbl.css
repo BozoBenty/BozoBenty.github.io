@@ -7,14 +7,15 @@ body {
 }
 
 .block {
-    width: 80%;
+    width: 30%;
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
     background-color: pink;
     min-height: 900px;
     height:180%;
-
+    padding: 10px;
+    
 }
 
 .sans {
@@ -23,4 +24,16 @@ body {
 
 .impact {
     font-family: impact;
+}
+
+hr {
+    background-color: #ffb6c1;
+    border-color:#ffb6c1;
+    height: 5px;
+}
+
+.lowmargin {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-family: serif;
 }
