@@ -57,6 +57,16 @@ hr {
 }
 
 
-.menu{
-    border-color:pink;
+.votingboard {
+    margin: auto auto;
+    background-color: red;
 }
+
+.menu{
+    font-family: sans-serif;
+    a {
+        color:hotpink;
+    }
+}
+
+
